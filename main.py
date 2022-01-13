@@ -24,6 +24,7 @@ def plotter(n, thresh, max_steps):
     return img
 
 
+# Execute les programme
 if __name__ == "__main__":
     img = plotter(200, 8, 200)
     plt.imshow(img, cmap="plasma")
